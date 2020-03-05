@@ -9,38 +9,6 @@
 	],
 "creatorBuild": "29156",
 "files": {
-	"/.gitattributes": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.gitattributes",
-		"oF": 0
-		},
-	"/deploy/adopt.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/adopt.html",
-		"oF": 0
-		},
-	"/deploy/benefits.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/benefits.html",
-		"oF": 0
-		},
-	"/deploy/care.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/care.html",
-		"oF": 0
-		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -51,144 +19,118 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/adopt/bkg-wave.svg": {
+	"/deploy/img/arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/adopt/bkg-wave.svg",
+		"oAP": "/deploy/img/arrow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/adopt/circles.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/circles.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/cost.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/cost.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/heart-line.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/heart-line.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/heart.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/heart.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/heart3.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/heart3.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/hero.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/hero.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/line.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/line.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/pig1.png": {
+	"/deploy/img/grain1.png": {
 		"ft": 32768,
-		"iS": 86757,
+		"iS": 6735,
 		"oA": 0,
-		"oAP": "/deploy/img/adopt/pig1.png",
+		"oAP": "/deploy/img/grain1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/adopt/pig2.jpg": {
-		"ft": 16384,
-		"iS": 175614,
-		"jF": 0,
+	"/deploy/img/hero/desktop.png": {
+		"ft": 32768,
+		"iS": 254872,
 		"oA": 0,
-		"oAP": "/deploy/img/adopt/pig2.jpg",
+		"oAP": "/deploy/img/hero/desktop.png",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/hero/mobile.png": {
+		"ft": 32768,
+		"iS": 256391,
+		"oA": 0,
+		"oAP": "/deploy/img/hero/mobile.png",
+		"oF": 0,
+		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/adopt/pig3.png": {
+	"/deploy/img/map1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/map1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/sketch/car.png": {
 		"ft": 32768,
-		"iS": 341366,
+		"iS": 13327,
 		"oA": 0,
-		"oAP": "/deploy/img/adopt/pig3.png",
+		"oAP": "/deploy/img/sketch/car.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/adopt/size.svg": {
+	"/deploy/img/sketch/house.png": {
+		"ft": 32768,
+		"iS": 46267,
+		"oA": 0,
+		"oAP": "/deploy/img/sketch/house.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/sketch/lights.png": {
+		"ft": 32768,
+		"iS": 31006,
+		"oA": 0,
+		"oAP": "/deploy/img/sketch/lights.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/type/boomtown.png": {
+		"ft": 32768,
+		"iS": 235690,
+		"oA": 0,
+		"oAP": "/deploy/img/type/boomtown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/type/local.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/adopt/size.svg",
+		"oAP": "/deploy/img/type/local.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/adopt/vaccines.svg": {
+	"/deploy/img/type/words1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/adopt/vaccines.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/home/pigpet-logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/home/pigpet-logo.svg",
+		"oAP": "/deploy/img/type/words1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -257,30 +199,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/adopt.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/adopt.html",
-		"oF": 2
-		},
-	"/dev/benefits.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/benefits.html",
-		"oF": 2
-		},
-	"/dev/care.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/care.html",
-		"oF": 2
-		},
 	"/dev/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -293,8 +211,16 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/header.html",
+		"oF": 0
+		},
+	"/dev/hero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/hero.html",
 		"oF": 0
 		},
 	"/dev/index.kit": {
@@ -360,6 +286,30 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/nav-background.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/nav-background.html",
+		"oF": 0
+		},
+	"/dev/navigation.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/navigation.html",
+		"oF": 0
+		},
+	"/dev/oldschool.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/oldschool.html",
+		"oF": 0
+		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -408,6 +358,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/components/_circletext.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_circletext.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -490,7 +453,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_adopt-expect.scss": {
+	"/dev/scss/sections/_hero.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -498,12 +461,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-expect.css",
+		"oAP": "/dev/scss/sections/_hero.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_adopt-hero.scss": {
+	"/dev/scss/sections/_oldschool.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -511,12 +474,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-hero.css",
+		"oAP": "/dev/scss/sections/_oldschool.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_adopt-oinking.scss": {
+	"/dev/scss/sections/_timeless.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -524,12 +487,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-oinking.css",
+		"oAP": "/dev/scss/sections/_timeless.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_adopt-pig-bio.scss": {
+	"/dev/scss/sections/_type.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -537,12 +500,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-pig-bio.css",
+		"oAP": "/dev/scss/sections/_type.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_adopt-testimonials.scss": {
+	"/dev/scss/sections/_upcoming.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -550,46 +513,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-testimonials.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_benefits.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_benefits.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_care.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_care.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_home.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_home.css",
+		"oAP": "/dev/scss/sections/_upcoming.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -606,6 +530,46 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"/dev/timeless.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/timeless.html",
+		"oF": 0
+		},
+	"/dev/type.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/type.html",
+		"oF": 0
+		},
+	"/dev/type.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/type.html",
+		"oF": 0
+		},
+	"/dev/upcoming.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/upcoming.html",
+		"oF": 0
+		},
+	"/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/LICENSE",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -614,7 +578,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 603310423.81148803,
-	"displayValue": "pigPets",
+	"displayValue": "passyunk",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-brick",
 	"iconImageWasSetByUser": 0

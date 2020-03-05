@@ -6,26 +6,63 @@ h1,h2,h3,h4,h5,p{
     margin: 0;
 }
 
+// font-family: nimbus-sans, sans-serif;
+// font-weight: 300;
+// font-weight: 700;
+//
+// font-family: nimbus-sans-extended, sans-serif;
+// font-weight: 400;
+//
+// font-family: noto-sans-extracondensed, sans-serif;
+// font-weight: 700;
+
+
 body{
-    font-family: mr-eaves-xl-modern, sans-serif;
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 300;
 }
 
 h1{
     @include h1-text;
-    color: $navy;
+    font-family: noto-sans-extracondensed, sans-serif;
+    font-weight: 700;
+    color: $black;
 }
 
 h2{
     @include h2-text;
-    color: $navy;
+    font-family: nimbus-sans-extended, sans-serif;
+    font-weight: 400;
+    color: $black;
 }
 
 h3{
     @include h3-text;
-    color: $navy;
+    font-family: noto-sans-extracondensed, sans-serif;
+    font-weight: 700;
+    color: $black;
+    border-bottom: 3px solid $accent;
+    margin-bottom: 32px;
+    padding-bottom: 4px;
 }
 
 p{
     @include p-text;
-    color: $dusk;
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 300;
+    color: $black;
+    padding-bottom: 24px;
+}
+
+h4{
+    @include h4-text;
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 700;
+    color: $black;
+    span{
+        color: $white;
+        background-color: $black;
+        padding: 8px;
+        margin-right: 8px;
+    }
 }

@@ -1,0 +1,19 @@
+/* =============
+    Buttons
+============= */
+.circle {
+    h2 {
+        color: $white;
+        text-align: right;
+        padding: 32px;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $accent;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    transform: rotate(-10deg);
+    margin-bottom: 24px;
+}
