@@ -160,24 +160,24 @@ html {
 
 // Use for each section
 @mixin section-padding{
-    padding: 60px 24px;
+    padding: 0px 24px;
     @include md{
-        padding: 80px 40px;
+        padding: 0px 40px;
     }
     @include lg{
-        padding: 100px 40px;
+        padding: 0px 40px;
     }
 }
 
 // Use for list items
 @mixin li-padding{
-    padding: 64px 0px;
+    padding: 24px 0px;
     @include md{
-        padding: 60px 0px;
+        padding: 32px 0px;
     }
-    @include lg{
-        padding: 80px 0px;
-    }
+    // @include lg{
+    //     padding: 40px 0px;
+    // }
 }
 
 // TYPOGRAPHY
@@ -197,14 +197,14 @@ html {
 @mixin h2-text{
     font-size: rem-calc(30);
     line-height: rem-calc(30);
-    @include md{
-        font-size: rem-calc(50);
-        line-height: rem-calc(50);
-    }
-    @include lg{
-        font-size: rem-calc(60);
-        line-height: rem-calc(60);
-    }
+    // @include md{
+    //     font-size: rem-calc(50);
+    //     line-height: rem-calc(50);
+    // }
+    // @include lg{
+    //     font-size: rem-calc(60);
+    //     line-height: rem-calc(60);
+    // }
 }
 
 @mixin h3-text{
@@ -220,4 +220,48 @@ html {
 @mixin h4-text{
     font-size: rem-calc(14);
     line-height: rem-calc(20);
+}
+
+// grid in the ul
+@mixin section-grid{
+    display: grid;
+    grid-template-areas:
+    "g1" "g2" "g3" "g4";
+    grid-gap: 24px;
+    grid-template-rows: 300px;
+
+    @include sm{
+        grid-template-areas: "g1 g2" "g3 g4";
+        grid-gap: 40px;
+    }
+    @include lg{
+        grid-template-areas:
+        "g1 . ."
+        "g2 g3 g4";
+        grid-gap: 0px 80px;
+    }
+    @include xl{
+        grid-template-areas:
+        ". g1 . . ."
+        ". g2 g3 g4 .";
+        grid-gap: 0px 40px;
+        grid-template-columns: auto 300px 300px 300px auto;
+    }
+    li{
+        @include li-padding;
+    }
+    li:nth-child(1){
+        grid-area: g1;
+        padding: 0px;
+        margin: 0px;
+    }
+    li:nth-child(2){
+        grid-area: g2;
+    }
+    li:nth-child(3){
+        grid-area: g3;
+    }
+    li:nth-child(4){
+        grid-area: g4;
+    }
 }

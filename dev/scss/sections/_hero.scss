@@ -5,6 +5,9 @@
     @include section-padding;
     background-image: url('../img/hero/mobile.png');
     background-size: contain;
+    @include lg{
+        background-image: url('../img/hero/desktop.png');
+    }
     background-repeat: no-repeat;
     background-color: $dusk;
     height: 100vh;

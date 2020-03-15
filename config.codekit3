@@ -144,50 +144,6 @@
 		"oAP": "/deploy/index.html",
 		"oF": 0
 		},
-	"/deploy/js/adopt-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/adopt-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/deploy/js/benefits-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/benefits-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/deploy/js/care-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/care-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/deploy/js/home-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/home-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/deploy/js/scripts-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -230,50 +186,6 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
-		},
-	"/dev/js/adopt.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/adopt-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/benefits.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/benefits-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/care.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/care-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/home.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/home-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -539,19 +451,11 @@
 		"oAP": "/dev/timeless.html",
 		"oF": 0
 		},
-	"/dev/type.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/type.html",
-		"oF": 0
-		},
 	"/dev/type.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/type.html",
 		"oF": 0
 		},

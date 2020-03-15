@@ -18,3 +18,31 @@ ul{
 a{
   text-decoration: none;
 }
+
+
+
+#element1{
+    position: fixed;
+    top: 30px;
+    left:5vw;
+    color:$accent;
+}
+
+
+// adjustments to FullPage css
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: $accent !important;
+    color: $accent;
+}
+
+#fp-nav ul, .fp-slidesNav ul {
+        margin-left: 5vw !important;
+}
+
+#fp-nav ul li .fp-tooltip{
+    color: $accent !important;
+    font-family: nimbus-sans-extended, sans-serif;
+    font-weight: 400;
+    font-size: rem-calc(16);
+}

@@ -1,19 +1,37 @@
 /* =============
     Buttons
 ============= */
-.circle {
-    h2 {
-        color: $white;
-        text-align: right;
-        padding: 32px;
-    }
+.circle-container {
+    background-color: $accent;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $accent;
-    border-radius: 50%;
-    height: 180px;
-    width: 180px;
-    transform: rotate(-10deg);
-    margin-bottom: 24px;
+
+
+    // margin-bottom: 24px;
 }
+
+.circle-text{
+    position: absolute;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    h2 {
+        color: $white;
+        text-align: right;
+        // padding: 40px;
+        transform: rotate(-10deg);
+    }
+}
+
+
+// justify-content: center;
+// align-items: center;
+// border-radius: 100%;
+// text-align: center;
+// display: flex;

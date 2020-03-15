@@ -3,14 +3,10 @@
 ============= */
 #oldschool{
     @include section-padding;
-    div{
-        >div{
 
-        }
+    div{
         ul{
-            li{
-                @include li-padding;
-            }
+            @include section-grid;
         }
     }
 
