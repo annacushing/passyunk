@@ -3,6 +3,7 @@
 ============= */
 #upcoming{
     @include section-padding;
+    @include grain-bkg;
     div{
         ul{
             @include section-grid;

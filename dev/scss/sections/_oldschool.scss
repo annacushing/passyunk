@@ -3,6 +3,7 @@
 ============= */
 #oldschool{
     @include section-padding;
+    @include grain-bkg;
 
     div{
         ul{

@@ -169,6 +169,16 @@ html {
     }
 }
 
+@mixin section-padding-xl{
+    padding: 0px 40px;
+    @include md{
+        padding: 0px 120px;
+    }
+    @include lg{
+        padding: 0px 160px;
+    }
+}
+
 // Use for list items
 @mixin li-padding{
     padding: 24px 0px;
@@ -238,7 +248,8 @@ html {
         grid-template-areas:
         "g1 . ."
         "g2 g3 g4";
-        grid-gap: 0px 80px;
+        grid-gap: 80px 80px;
+        grid-template-rows: 300px auto;
     }
     @include xl{
         grid-template-areas:
@@ -264,4 +275,11 @@ html {
     li:nth-child(4){
         grid-area: g4;
     }
+}
+
+@mixin grain-bkg{
+    background-image: url('../img/grain1.png');
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: left top;
 }

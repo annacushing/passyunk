@@ -17,7 +17,7 @@ new fullpage('#fullPage', {
     continuousVertical:true,
 
     // showing tooltips on nav circles
-    navigationTooltips:['PASSYUNK', 'THE AVE', 'OLD SCHOOL', 'UP AND COMING', 'TIMELESS'],
+    navigationTooltips:['PASSYUNK', 'THE AVE', 'OLD SCHOOL', 'UP AND COMING', 'TIMELESS', 'MAP'],
     showActiveTooltip:true,
 
     // pages which go beyond the viewport height

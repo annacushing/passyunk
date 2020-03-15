@@ -1,19 +1,33 @@
 /* =============
-    upcoming
+    type
 ============= */
 #type {
     overflow: hidden;
     background-color: $light;
     @include section-padding;
 
-    .sliding-background{
+    >div{
+        @include md{
+            background-image: url('../img/sketch/lights.png');
+            background-repeat: no-repeat;
+            background-size: 50vh;
+            background-position: right bottom;
+        }
+        @include lg{
+            background-position: center bottom;
+        }
+
 
         // height: 100px;
         // width: 1000px;
         // animation: slide 950s linear infinite;
         svg{
-            height: 100vh;
+            height: 98vh;
             grid-area: g1;
+            @include xl{
+                position: fixed;
+                left: 18%;
+            }
         }
 
         display: grid;

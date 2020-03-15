@@ -1,0 +1,42 @@
+/* =============
+    map
+============= */
+#map {
+    background-image: url('../img/map.svg');
+    background-size: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: $light;
+    display: grid;
+    grid-template-areas:
+    "g1";
+
+
+
+    @include xl{
+        grid-template-areas:
+        ". g1 ";
+        grid-template-columns: auto 900px auto;
+    }
+
+    >div{
+        grid-area: g1;
+        display: flex;
+        align-items: flex-end;
+
+        h2{
+            @include section-padding-xl;
+
+            color: $accent;
+        }
+        aside{
+            background-image: url('../img/sketch/car.png');
+            background-repeat: no-repeat;
+            height: 50vh;
+            background-size: 50vh;
+            background-position: left bottom;
+        }
+    }
+
+
+}

@@ -5,19 +5,44 @@
     @include section-padding;
     background-image: url('../img/hero/mobile.png');
     background-size: contain;
-    @include lg{
-        background-image: url('../img/hero/desktop.png');
-    }
+    background-position: center center;
     background-repeat: no-repeat;
     background-color: $dusk;
     height: 100vh;
-    background-position: center center;
     display: flex;
-    align-items: flex-end;
+    @include md{
+
+    }
+    @include lg{
+        background-image: url('../img/hero/desktop.png');
+        background-position: right center;
+    }
+    @include xl{
+        background-position: center center;
+    }
+
+
+
     h2{
         color: $accent;
+        position: fixed;
+        left: 10%;
+        width: 80vw;
+        top: 10%;
+        @include md{
+            left: 50%;
+            width: 30vw;
+            top: 45%;
+        }
+        @include lg{
+            left: 10%;
+            width: 20vw;
+            bottom: 50%;
+        }
     }
-    img{
-
+    a{
+        position: fixed;
+        left: 12%;
+        bottom: 10%;
     }
 }

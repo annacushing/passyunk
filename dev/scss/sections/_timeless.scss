@@ -2,6 +2,7 @@
     timeless
 ============= */
 #timeless{
+    @include grain-bkg;
     @include section-padding;
     div{
         ul{

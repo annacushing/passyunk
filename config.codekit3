@@ -35,8 +35,8 @@
 		"oA": 0,
 		"oAP": "/deploy/img/grain1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -62,11 +62,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/map1.svg": {
+	"/deploy/img/map.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/map1.svg",
+		"oAP": "/deploy/img/map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -197,6 +197,14 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/map.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/map.html",
+		"oF": 0
 		},
 	"/dev/nav-background.kit": {
 		"cB": 0,
@@ -374,6 +382,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_map.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_map.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
