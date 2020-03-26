@@ -4,6 +4,7 @@
 #oldschool{
     @include section-padding;
     @include grain-bkg;
+    @include bar-btm;
 
     div{
         ul{

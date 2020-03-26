@@ -40,6 +40,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/grain2.png": {
+		"ft": 32768,
+		"iS": 433442,
+		"oA": 0,
+		"oAP": "/deploy/img/grain2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/hero/desktop.png": {
 		"ft": 32768,
 		"iS": 254872,
@@ -74,7 +85,7 @@
 		},
 	"/deploy/img/sketch/car.png": {
 		"ft": 32768,
-		"iS": 13327,
+		"iS": 110921,
 		"oA": 0,
 		"oAP": "/deploy/img/sketch/car.png",
 		"oF": 0,
@@ -89,8 +100,8 @@
 		"oA": 0,
 		"oAP": "/deploy/img/sketch/house.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -107,7 +118,7 @@
 		},
 	"/deploy/img/type/boomtown.png": {
 		"ft": 32768,
-		"iS": 235690,
+		"iS": 1089165,
 		"oA": 0,
 		"oAP": "/deploy/img/type/boomtown.png",
 		"oF": 0,
@@ -131,6 +142,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/type/words1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/type/words2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/type/words2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,

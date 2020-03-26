@@ -14,7 +14,7 @@
             background-position: right bottom;
         }
         @include lg{
-            background-position: center bottom;
+            background-position: bottom right;
         }
 
 
@@ -22,8 +22,12 @@
         // width: 1000px;
         // animation: slide 950s linear infinite;
         svg{
-            height: 98vh;
+            height: 70vh;
             grid-area: g1;
+            margin: auto;
+            @include lg{
+                height: 90vh;
+            }
             @include xl{
                 position: fixed;
                 left: 18%;

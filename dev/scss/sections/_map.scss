@@ -2,6 +2,7 @@
     map
 ============= */
 #map {
+    @include section-padding;
     background-image: url('../img/map.svg');
     background-size: 100vh;
     background-position: center center;
@@ -12,8 +13,7 @@
     "g1";
 
 
-
-    @include xl{
+    @include lg{
         grid-template-areas:
         ". g1 ";
         grid-template-columns: auto 900px auto;
@@ -21,22 +21,50 @@
 
     >div{
         grid-area: g1;
-        display: flex;
-        align-items: flex-end;
-
-        h2{
-            @include section-padding-xl;
-
-            color: $accent;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        display: grid;
+        img{
+            height: 200px;
         }
-        aside{
-            background-image: url('../img/sketch/car.png');
-            background-repeat: no-repeat;
-            height: 50vh;
-            background-size: 50vh;
-            background-position: left bottom;
+
+
+        ul{
+            display: grid;
+            grid-template-areas:
+            "g1" "g2";
+            grid-gap: 24px;
+            grid-template-rows: auto;
+
+            @include md{
+                grid-template-areas: "g1 g2 g3";
+                grid-gap: 40px;
+                grid-template-rows: auto;
+                padding-top: 200px
+            }
+            li{
+                height: 300px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            li:nth-child(1){
+                grid-area: g1;
+                background-image: url('../img/sketch/car.png');
+            }
+            li:nth-child(2){
+                grid-area: g2;
+
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+            }
+            li:nth-child(3){
+                grid-area: g3;
+                background-image: url('../img/sketch/house.png');
+            }
         }
+
     }
-
 
 }

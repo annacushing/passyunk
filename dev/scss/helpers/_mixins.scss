@@ -160,9 +160,9 @@ html {
 
 // Use for each section
 @mixin section-padding{
-    padding: 0px 24px;
+    padding: 60px 24px;
     @include md{
-        padding: 0px 40px;
+        padding: 80px 40px;
     }
     @include lg{
         padding: 0px 40px;
@@ -171,6 +171,7 @@ html {
 
 @mixin section-padding-xl{
     padding: 0px 40px;
+    margin: 80px 0px;
     @include md{
         padding: 0px 120px;
     }
@@ -200,7 +201,7 @@ html {
     }
     @include lg{
         font-size: rem-calc(88);
-        line-height: rem-calc(70);
+        line-height: rem-calc(80);
     }
 }
 
@@ -244,6 +245,9 @@ html {
         grid-template-areas: "g1 g2" "g3 g4";
         grid-gap: 40px;
     }
+    @include md{
+        grid-template-rows: 40vh 40vh;
+    }
     @include lg{
         grid-template-areas:
         "g1 . ."
@@ -280,6 +284,10 @@ html {
 @mixin grain-bkg{
     background-image: url('../img/grain1.png');
     background-repeat: no-repeat;
-    background-size: 600px;
+    background-size: 550px;
     background-position: left top;
+}
+
+@mixin bar-btm{
+    border-bottom: 40px solid $accent;
 }

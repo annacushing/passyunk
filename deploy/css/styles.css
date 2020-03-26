@@ -328,7 +328,8 @@ a {
   position: fixed;
   top: 30px;
   left: 5vw;
-  color: #DB822E; }
+  color: #DB822E;
+  background-color: #ffffff; }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
   background: #DB822E !important;
@@ -341,7 +342,10 @@ a {
   color: #DB822E !important;
   font-family: nimbus-sans-extended, sans-serif;
   font-weight: 400;
-  font-size: 1rem; }
+  font-size: 0.625rem; }
+  @media (min-width: 768px) {
+    #fp-nav ul li .fp-tooltip {
+      font-size: 0.875rem; } }
 
 /* =============
     Typography
@@ -367,7 +371,7 @@ h1 {
   @media (min-width: 992px) {
     h1 {
       font-size: 5.5rem;
-      line-height: 4.375rem; } }
+      line-height: 5rem; } }
 
 h2 {
   font-size: 1.875rem;
@@ -415,15 +419,14 @@ button {
   border: none;
   outline: none;
   border-radius: 50px;
-  color: #000000;
-  border: 5px solid #DB822E;
-  background-color: #ffffff;
-  font-size: 1.25rem;
+  color: #ffffff;
+  background-color: #211F1E;
+  font-size: 1rem;
   font-weight: 900;
   cursor: pointer;
   display: inline-block;
-  font-family: sans-serif;
-  font-family: mr-eaves-xl-modern, sans-serif;
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 400;
   padding: 0.5rem 2rem;
   text-align: center;
   text-decoration: none;
@@ -433,8 +436,7 @@ button {
 button:hover,
 button:focus {
   background: #DB822E;
-  color: #ffffff;
-  border: 5px solid #DB822E; }
+  color: #ffffff; }
 
 /* =============
     Buttons
@@ -510,20 +512,27 @@ header {
     Hero
 ============= */
 #hero {
-  padding: 0px 24px;
+  padding: 60px 24px;
   background-image: url("../img/hero/mobile.png");
   background-size: contain;
-  background-position: center center;
+  background-position: center 100px;
   background-repeat: no-repeat;
   background-color: #211F1E;
+  position: relative;
   height: 100vh;
   display: flex; }
   @media (min-width: 768px) {
     #hero {
-      padding: 0px 40px; } }
+      padding: 80px 40px; } }
   @media (min-width: 992px) {
     #hero {
       padding: 0px 40px; } }
+  @media (min-width: 576px) {
+    #hero {
+      background-position: center 50px; } }
+  @media (min-width: 768px) {
+    #hero {
+      background-position: center center; } }
   @media (min-width: 992px) {
     #hero {
       background-image: url("../img/hero/desktop.png");
@@ -532,30 +541,47 @@ header {
     #hero {
       background-position: center center; } }
   #hero h2 {
-    color: #DB822E;
-    position: fixed;
-    left: 10%;
-    width: 80vw;
-    top: 10%; }
+    color: #DB822E; }
+    @media (min-width: 576px) {
+      #hero h2 {
+        padding-top: 40px;
+        padding-left: 40px; } }
     @media (min-width: 768px) {
       #hero h2 {
-        left: 50%;
+        padding: 0;
+        position: absolute;
+        left: 45%;
         width: 30vw;
-        top: 45%; } }
+        top: 60%; } }
     @media (min-width: 992px) {
       #hero h2 {
         left: 10%;
         width: 20vw;
-        bottom: 50%; } }
-  #hero a {
-    position: fixed;
-    left: 12%;
-    bottom: 10%; }
+        top: 40%; } }
+  #hero img {
+    height: 20vh;
+    margin-top: 35vh; }
+    @media (min-width: 576px) {
+      #hero img {
+        margin-left: 5%; } }
+    @media (min-width: 768px) {
+      #hero img {
+        height: auto;
+        margin-top: 0;
+        position: absolute;
+        left: 20%;
+        bottom: 15%;
+        margin-left: 0; } }
+    @media (min-width: 992px) {
+      #hero img {
+        left: 10%;
+        bottom: 15%; } }
 
 /* =============
     map
 ============= */
 #map {
+  padding: 60px 24px;
   background-image: url("../img/map.svg");
   background-size: 100vh;
   background-position: center center;
@@ -563,29 +589,50 @@ header {
   background-color: #F7F2E9;
   display: grid;
   grid-template-areas: "g1"; }
-  @media (min-width: 1200px) {
+  @media (min-width: 768px) {
+    #map {
+      padding: 80px 40px; } }
+  @media (min-width: 992px) {
+    #map {
+      padding: 0px 40px; } }
+  @media (min-width: 992px) {
     #map {
       grid-template-areas: ". g1 ";
       grid-template-columns: auto 900px auto; } }
   #map > div {
     grid-area: g1;
-    display: flex;
-    align-items: flex-end; }
-    #map > div h2 {
-      padding: 0px 40px;
-      color: #DB822E; }
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: grid; }
+    #map > div img {
+      height: 200px; }
+    #map > div ul {
+      display: grid;
+      grid-template-areas: "g1" "g2";
+      grid-gap: 24px;
+      grid-template-rows: auto; }
       @media (min-width: 768px) {
-        #map > div h2 {
-          padding: 0px 120px; } }
-      @media (min-width: 992px) {
-        #map > div h2 {
-          padding: 0px 160px; } }
-    #map > div aside {
-      background-image: url("../img/sketch/car.png");
-      background-repeat: no-repeat;
-      height: 50vh;
-      background-size: 50vh;
-      background-position: left bottom; }
+        #map > div ul {
+          grid-template-areas: "g1 g2 g3";
+          grid-gap: 40px;
+          grid-template-rows: auto;
+          padding-top: 200px; } }
+      #map > div ul li {
+        height: 300px;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      #map > div ul li:nth-child(1) {
+        grid-area: g1;
+        background-image: url("../img/sketch/car.png"); }
+      #map > div ul li:nth-child(2) {
+        grid-area: g2;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto; }
+      #map > div ul li:nth-child(3) {
+        grid-area: g3;
+        background-image: url("../img/sketch/house.png"); }
 
 /* =============
     timeless
@@ -593,12 +640,13 @@ header {
 #timeless {
   background-image: url("../img/grain1.png");
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 550px;
   background-position: left top;
-  padding: 0px 24px; }
+  padding: 60px 24px;
+  border-bottom: 40px solid #DB822E; }
   @media (min-width: 768px) {
     #timeless {
-      padding: 0px 40px; } }
+      padding: 80px 40px; } }
   @media (min-width: 992px) {
     #timeless {
       padding: 0px 40px; } }
@@ -611,6 +659,9 @@ header {
       #timeless div ul {
         grid-template-areas: "g1 g2" "g3 g4";
         grid-gap: 40px; } }
+    @media (min-width: 768px) {
+      #timeless div ul {
+        grid-template-rows: 40vh 40vh; } }
     @media (min-width: 992px) {
       #timeless div ul {
         grid-template-areas: "g1 . ." "g2 g3 g4";
@@ -643,10 +694,10 @@ header {
 #type {
   overflow: hidden;
   background-color: #F7F2E9;
-  padding: 0px 24px; }
+  padding: 60px 24px; }
   @media (min-width: 768px) {
     #type {
-      padding: 0px 40px; } }
+      padding: 80px 40px; } }
   @media (min-width: 992px) {
     #type {
       padding: 0px 40px; } }
@@ -661,10 +712,14 @@ header {
         background-position: right bottom; } }
     @media (min-width: 992px) {
       #type > div {
-        background-position: center bottom; } }
+        background-position: bottom right; } }
     #type > div svg {
-      height: 98vh;
-      grid-area: g1; }
+      height: 70vh;
+      grid-area: g1;
+      margin: auto; }
+      @media (min-width: 992px) {
+        #type > div svg {
+          height: 90vh; } }
       @media (min-width: 1200px) {
         #type > div svg {
           position: fixed;
@@ -678,14 +733,15 @@ header {
     oldschool
 ============= */
 #oldschool {
-  padding: 0px 24px;
+  padding: 60px 24px;
   background-image: url("../img/grain1.png");
   background-repeat: no-repeat;
-  background-size: 600px;
-  background-position: left top; }
+  background-size: 550px;
+  background-position: left top;
+  border-bottom: 40px solid #DB822E; }
   @media (min-width: 768px) {
     #oldschool {
-      padding: 0px 40px; } }
+      padding: 80px 40px; } }
   @media (min-width: 992px) {
     #oldschool {
       padding: 0px 40px; } }
@@ -698,6 +754,9 @@ header {
       #oldschool div ul {
         grid-template-areas: "g1 g2" "g3 g4";
         grid-gap: 40px; } }
+    @media (min-width: 768px) {
+      #oldschool div ul {
+        grid-template-rows: 40vh 40vh; } }
     @media (min-width: 992px) {
       #oldschool div ul {
         grid-template-areas: "g1 . ." "g2 g3 g4";
@@ -728,14 +787,15 @@ header {
     upcoming
 ============= */
 #upcoming {
-  padding: 0px 24px;
+  padding: 60px 24px;
   background-image: url("../img/grain1.png");
   background-repeat: no-repeat;
-  background-size: 600px;
-  background-position: left top; }
+  background-size: 550px;
+  background-position: left top;
+  border-bottom: 40px solid #DB822E; }
   @media (min-width: 768px) {
     #upcoming {
-      padding: 0px 40px; } }
+      padding: 80px 40px; } }
   @media (min-width: 992px) {
     #upcoming {
       padding: 0px 40px; } }
@@ -748,6 +808,9 @@ header {
       #upcoming div ul {
         grid-template-areas: "g1 g2" "g3 g4";
         grid-gap: 40px; } }
+    @media (min-width: 768px) {
+      #upcoming div ul {
+        grid-template-rows: 40vh 40vh; } }
     @media (min-width: 992px) {
       #upcoming div ul {
         grid-template-areas: "g1 . ." "g2 g3 g4";

@@ -4,6 +4,7 @@
 #timeless{
     @include grain-bkg;
     @include section-padding;
+    @include bar-btm;
     div{
         ul{
             @include section-grid;
